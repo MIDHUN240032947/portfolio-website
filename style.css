@@ -1,0 +1,113 @@
+html{
+scroll-behavior:smooth;
+}
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 50px;
+background:#111;
+color:white;
+position:sticky;
+top:0;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+}
+
+
+/* HOME */
+
+.home{
+height:80vh;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+color:white;
+text-align:center;
+}
+
+.home button{
+margin-top:20px;
+padding:12px 25px;
+background:#0077ff;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+
+/* SECTIONS */
+
+section{
+padding:60px;
+text-align:center;
+}
+
+
+/* SKILLS */
+
+.skills span{
+display:inline-block;
+background:#0077ff;
+color:white;
+padding:10px 15px;
+margin:5px;
+border-radius:5px;
+}
+
+
+/* PROJECTS */
+
+.projects{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:20px;
+}
+
+.project-card{
+background:#f4f4f4;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
